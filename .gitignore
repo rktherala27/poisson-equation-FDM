@@ -1,41 +1,19 @@
-# Prerequisites
-*.d
+# Executables
+*.out
+*.exe
 
-# Compiled Object files
-*.slo
-*.lo
+# Object files
 *.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Doxygen files
+html/
+latex/
 
-# Linker files
-*.ilk
+# IDE-specific files (e.g., VS Code)
+.vscode/
+.idea/
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# Binaries/libraries
+*.a
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
