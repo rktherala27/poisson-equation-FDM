@@ -1,19 +1,23 @@
-# Executables
-*.out
-*.exe
-
-# Object files
+# Build
+build/
 *.o
-
-# Doxygen files
-html/
-latex/
-
-# IDE-specific files (e.g., VS Code)
-.vscode/
-.idea/
-
-# Binaries/libraries
 *.a
-*.so
-*.dylib
+*.out
+# Executables
+poisson
+cg_demo
+
+# CUDA
+*.ptx
+*.cubin
+
+# Results (track .gitkeep but not generated files)
+results/*.csv
+results/*.txt
+!results/.gitkeep
+
+# VSCode
+.vscode/settings.json
+plan.md
+checks.txt
+
